@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet" />
+    <script src="script.js"></script>
+    <title>Hećimović</title>
+  </head>
+  <body>
+    <body onload="myFunction()" style="margin: 0">
+      <div id="loader"></div><div id="tekstloader">Are you ready?</div>
+    <div style="display: none" id="myDiv" class="animate-bottom">
+    <div id="menu">
+      <div id="menu-bar" onclick="menuOnClick()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </div>
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#aboutme">About me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav> 
+    </div><div class="menu-bg" id="menu-bg"></div>
+    
+    <main>
+      <div id ="home" class="hero"><img src="pc.gif" /></div>
+      <div class="typewriter">
+        <h1>Coding is the new language of the world.</h1>
+      </div>
+      <div class="box"></div>
+    </main>
+    <div id ="aboutme" class="omeni">
+      <div class="prvidio">
+        <img class="lijevo" src="coder.png" />
+        <div class="tekstomeni">
+          <h1>
+            Hey! My name is Šimun.<br />
+            I am a front end developer based in Osijek.
+          </h1>
+          <h2>&lt school &gt</h2>
+          <p>
+            After finishing Electrotechnic school as a Electronic technician, I gave FERIT and
+            computer science a shot but that story finished pretty soon. That type of learning
+            seemed to dull for me and it seemed like it's taking to much time.
+          </p>
+          <h2>&lt /school &gt</h2>
+
+          <h2>&lt life &gt</h2>
+          <p>
+            Then a few years of grinding, drifting and searching came. I've tried a lot of new
+            things, even worked abroad for almost two years.
+          </p>
+          <h2>&lt /life &gt</h2>
+
+          <h2>&lt coding &gt</h2>
+          <p>
+            Then I decided my way of expressing is gonna be coding. I had some contact with web and
+            programming through high school and college, but not enough. Beginning of 2023 - I
+            started learning about web development. Now a year and half later, after a lot of
+            hardwork and sweat I decided It's not going to be a hobby anymore and I'm going to
+            actually a professional career in development.
+          </p>
+          <h2>&lt /coding &gt</h2>
+        </div>
+      </div>
+      <div class="social" id="contact">
+        <a display="facebook:url" href="https://www.facebook.com/hecsimun/"><img src="facebook.png" /></a>
+        <a display="gmail:url" href=mailto:“hecsimun@gmail.com”><img src="gmail.png " /></a>
+        <a display="github:url" href="https://github.com/hecsimun/"><img src="github.png" /></a>
+        <a display="linkedin:url" href="https://www.linkedin.com/in/%C5%A1imun-he%C4%87imovi%C4%87-4361a2248/"><img src="linkedin.png" /></a>
+      </div>
+    </div>
+    <div class="box2"></div>
+    <div class="portfolio">
+      <h1 id ="portfolio" class="naslov">MY PORTFOLIO</h1>
+      <div class="radovi">
+        <div class="row">
+          <div class="projekt">
+            <a  href="https://hecsimun.github.io/hecsimun.github.io/projekt1/"><img src="projekt1.png" /></a>
+            <p>Projekt 1</p>
+          </div>
+          <div class="projekt">
+            <img src="projekt2.png" />
+            <p>projekt 3</p>
+          </div>
+          <div class="projekt">
+            <img src="projekt3.png" />
+            <p>projekt 4</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="projekt">
+            <img src="projekt4.png" />
+            <p>projekt 5</p>
+          </div>
+
+          <div class="projekt">
+            <img src="projekt5.png" />
+            <p>projekt 7</p>
+          </div>
+
+          <div class="projekt">
+            <img src="projekt6.png" />
+            <p>projekt 8</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="projekt">
+            <img src="projekt7.png" />
+            <p>projekt 9</p>
+          </div>
+
+          <div class="projekt">
+            <img src="projekt8.png" />
+            <p>projekt 11</p>
+          </div>
+
+          <div class="projekt">
+            <img src="projekt9.png" />
+            <p>projekt 12</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="box3"></div>
+    <footer>
+      <div class="bottom">
+          <div class="item"><a href=#home>Home</a></div>
+          <div class="item"><a href=#aboutme>About me</a></div>
+          <div class="item"><a href=#portfolio>Portfolio</a></div>
+          <div class="item"><a href=#contact>Contact</a></div>
+      </div>
+    </footer>
+    <div class="copyright">©2024 Šimun Hećimović</div>
+  </div>
+  </body>
+  </html>

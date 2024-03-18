@@ -1,0 +1,89 @@
+* {
+  font-family: "Crete Round";
+}
+.trislike {
+  display: flex;
+  text-align: center;
+}
+
+.slika img {
+  max-width: 85%;
+  height: auto;
+}
+
+.nav {
+  display: flex;
+  background-color: #a5dfff;
+}
+
+.nav a {
+  margin: 1%;
+  margin-left: 2%;
+  color: black;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+
+body {
+  margin: 0;
+  background-color: #f1faff;
+}
+
+h1 {
+  background-color: #bee8ff;
+  color: black;
+  margin-top: 5%;
+  padding: 1% 0;
+  text-align: center;
+}
+
+.sliketekst {
+  display: flex;
+  justify-content: center;
+}
+
+.slike {
+  text-align: center;
+}
+.sliketekst img {
+  max-width: 70%;
+  height: auto;
+}
+
+.drugitekst {
+  background-color: #bee8ff;
+  color: black;
+  margin: 5% auto;
+  padding-bottom: 8%;
+  padding-top: 1%;
+}
+
+h2,
+p {
+  margin-left: 1%;
+  color: black;
+}
+
+#bijeli {
+  color: black;
+}
+
+.slike p {
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav a {
+    font-size: 0.8rem;
+    margin: 1rem auto;
+  }
+
+  .trislike {
+    flex-direction: column;
+  }
+  .slika img {
+    max-width: 70%;
+    margin: 1rem auto;
+  }
+}
